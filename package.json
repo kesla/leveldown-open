@@ -1,0 +1,27 @@
+{
+  "name": "leveldown-open",
+  "version": "0.0.0",
+  "description": "Handle the logic needed to open a leveldown db",
+  "main": "leveldown-open.js",
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "^2.2.8",
+    "tape": "^2.14.0"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "leveldown"
+  ],
+  "author": "David Björklund <david.bjorklund@gmail.com> (http://davidbjorklund.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kesla/leveldown-open.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kesla/leveldown-open/issues"
+  },
+  "homepage": "https://github.com/kesla/leveldown-open"
+}
