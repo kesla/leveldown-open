@@ -1,6 +1,6 @@
 {
   "name": "leveldown-open",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handle the logic needed to open a leveldown db",
   "main": "leveldown-open.js",
   "dependencies": {},
