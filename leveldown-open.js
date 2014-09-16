@@ -1,6 +1,11 @@
 var fs = require('fs')
 
   , open = function (location, options, callback) {
+      if (!callback) {
+        callback = options
+        options = {}
+      }
+
       var subdir = location.split('/').slice(0, -1).join('/')
 
       fs.exists(subdir, function (subdirExists) {
