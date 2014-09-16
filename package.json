@@ -5,6 +5,7 @@
   "main": "leveldown-open.js",
   "dependencies": {},
   "devDependencies": {
+    "abstract-leveldown": "^1.0.0",
     "rimraf": "^2.2.8",
     "tape": "^2.14.0"
   },
