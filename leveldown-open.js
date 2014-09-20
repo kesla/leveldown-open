@@ -1,12 +1,14 @@
 var fs = require('fs')
 
+  , separator = require('os').platform() === 'win32' ? '\\' : '/'
+
   , open = function (location, options, callback) {
       if (!callback) {
         callback = options
         options = {}
       }
 
-      var subdir = location.split('/').slice(0, -1).join('/')
+      var subdir = location.split(separator).slice(0, -1).join(separator)
 
       fs.exists(subdir, function (subdirExists) {
         if (!subdirExists)
